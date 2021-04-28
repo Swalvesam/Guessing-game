@@ -1,6 +1,6 @@
 """A number-guessing game."""
 from random import randint
-
+number = randint(1, 100)
 # Put your code here
 print('Howdy, Whats your name?')
 
@@ -8,7 +8,7 @@ print('Howdy, Whats your name?')
 name = input("type in your name:")
 # we need to generate a random number between 1 and 100
 print("I am thinking of a number between 1 and 100")
-number = randint(1,100)
+
     
 count = 0
 
