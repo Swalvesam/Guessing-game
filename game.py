@@ -1,6 +1,7 @@
 """A number-guessing game."""
-from random import randint
-number = randint(1, 100)
+import random
+number = random.randint(1,100)
+
 # Put your code here
 print('Howdy, Whats your name?')
 
@@ -25,7 +26,7 @@ while True:
         elif int(guess) < number: 
             print("Your guess is too low, try again.")
             count += 1
-        elif int(guess) < number:
+        elif int(guess) > number:
             print("Your guess is too high, try again.")
             count += 1
         else:
